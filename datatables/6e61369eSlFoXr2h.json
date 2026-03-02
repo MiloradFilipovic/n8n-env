@@ -1,0 +1,20 @@
+{
+  "id": "6e61369eSlFoXr2h",
+  "name": "Foo",
+  "columns": [
+    {
+      "id": "y2CbOsOXjnp610AZ",
+      "name": "remote",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "COQ5lYyjtmuN4N6s",
+    "projectName": "Owner Neightn <test@n8n.io>",
+    "personalEmail": "test@n8n.io"
+  },
+  "createdAt": "2026-03-02T11:43:07.368Z",
+  "updatedAt": "2026-03-02T11:43:13.469Z"
+}
