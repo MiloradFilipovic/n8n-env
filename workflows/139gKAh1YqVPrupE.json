@@ -1,0 +1,35 @@
+{
+  "id": "139gKAh1YqVPrupE",
+  "name": "Original - Published Copy",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "d5592849-a507-4f89-8e7b-2c478f9a2e1a",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "bb184b41-69a6-4ae5-b0a3-40f6b302d15c",
+      "name": "Webhook",
+      "webhookId": "d5592849-a507-4f89-8e7b-2c478f9a2e1a"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 1,
+  "versionId": "8971e62a-b0a4-46a9-8e58-0ca41a8e7fc4",
+  "owner": {
+    "type": "personal",
+    "projectId": "4KJl0T0erg4DwK70",
+    "projectName": "Milorad Filipovic <milorad.filipovic19@gmail.com>",
+    "personalEmail": "milorad.filipovic19@gmail.com"
+  },
+  "parentFolderId": null,
+  "isArchived": true
+}

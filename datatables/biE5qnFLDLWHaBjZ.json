@@ -1,0 +1,31 @@
+{
+  "id": "biE5qnFLDLWHaBjZ",
+  "name": "Candidates",
+  "columns": [
+    {
+      "id": "oMwYWAKPbEREdyhh",
+      "name": "firstName",
+      "type": "string",
+      "index": 0
+    },
+    {
+      "id": "N2RySbinlfYL9F9q",
+      "name": "lastName",
+      "type": "string",
+      "index": 1
+    },
+    {
+      "id": "5nFSvfC618v5OdIR",
+      "name": "email",
+      "type": "string",
+      "index": 2
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "createdAt": "2025-11-14T18:43:54.366Z",
+  "updatedAt": "2026-02-27T14:17:40.007Z"
+}

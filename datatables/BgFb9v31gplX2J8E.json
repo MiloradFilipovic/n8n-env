@@ -1,0 +1,37 @@
+{
+  "id": "BgFb9v31gplX2J8E",
+  "name": "Testing refactor",
+  "columns": [
+    {
+      "id": "pfAQSevdeQKcI8Bs",
+      "name": "age",
+      "type": "number",
+      "index": 0
+    },
+    {
+      "id": "70roYdg4eqBbClt4",
+      "name": "firstName",
+      "type": "string",
+      "index": 1
+    },
+    {
+      "id": "ZacsBh5TmaACdKqS",
+      "name": "lastName",
+      "type": "string",
+      "index": 2
+    },
+    {
+      "id": "F675jNxbSFIhRfon",
+      "name": "active",
+      "type": "boolean",
+      "index": 3
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "NWBl77TREaNzOhJ2",
+    "teamName": "Data Tables"
+  },
+  "createdAt": "2025-10-10T10:42:41.242Z",
+  "updatedAt": "2025-10-10T10:42:41.242Z"
+}

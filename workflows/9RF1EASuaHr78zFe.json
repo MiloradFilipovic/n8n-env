@@ -1,0 +1,158 @@
+{
+  "id": "9RF1EASuaHr78zFe",
+  "name": "ADO-3745",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        272,
+        0
+      ],
+      "id": "91efb554-22ed-442e-a711-b21224a8a9d4",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "IBtqHdn8pjnycR5Y",
+          "mode": "list",
+          "cachedResultName": "Bag bash — ADO-3959-sub"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "IP": "={{ $json.ip }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "IP",
+              "displayName": "IP",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "mode": "each",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        752,
+        -128
+      ],
+      "id": "a52ed11b-ac1a-4147-b8cf-a4cd49a91323",
+      "name": "Call 'ADO-3959-sub'",
+      "alwaysOutputData": true,
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "category": "randomData",
+        "randomDataType": "ipv4"
+      },
+      "type": "n8n-nodes-base.debugHelper",
+      "typeVersion": 1,
+      "position": [
+        480,
+        0
+      ],
+      "id": "fc473173-0a17-4e3f-86ad-1d8f801f7bb1",
+      "name": "DebugHelper"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "IBtqHdn8pjnycR5Y",
+          "mode": "list",
+          "cachedResultName": "Bag bash — ADO-3959-sub"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "IP": "={{ $json.ip }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "IP",
+              "displayName": "IP",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "mode": "each",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        752,
+        128
+      ],
+      "id": "044e7a6c-81ae-4712-accc-00fc00c5e9b9",
+      "name": "Call 'ADO-3959-sub'1 [NEW]",
+      "alwaysOutputData": true,
+      "onError": "continueErrorOutput"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "DebugHelper",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DebugHelper": {
+      "main": [
+        [
+          {
+            "node": "Call 'ADO-3959-sub'",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Call 'ADO-3959-sub'1 [NEW]",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "68b2e994-6479-4718-b124-759bef25f11f",
+  "owner": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

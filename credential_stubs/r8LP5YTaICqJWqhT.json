@@ -1,0 +1,15 @@
+{
+  "id": "r8LP5YTaICqJWqhT",
+  "name": "milorad@n8n.io",
+  "type": "googleSheetsOAuth2Api",
+  "data": {
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "LjwhckJdOo11JpNi",
+    "teamName": "Assistant tests"
+  },
+  "isGlobal": false
+}

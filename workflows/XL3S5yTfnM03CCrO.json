@@ -1,0 +1,35 @@
+{
+  "id": "XL3S5yTfnM03CCrO",
+  "name": "What about me",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "c35909ed-cb2f-47f6-bb8d-f38ce4e93d86",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "1d2937bf-4608-4ccd-b1dd-8ad325ac3587",
+      "name": "Webhook",
+      "webhookId": "c35909ed-cb2f-47f6-bb8d-f38ce4e93d86"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "07c9f59c-8a47-4796-9723-2b72ba2aa7c0",
+  "owner": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

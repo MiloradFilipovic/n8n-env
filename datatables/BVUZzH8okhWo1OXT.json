@@ -1,0 +1,31 @@
+{
+  "id": "BVUZzH8okhWo1OXT",
+  "name": "NDV Test",
+  "columns": [
+    {
+      "id": "opnctakyx4Nmi0Bw",
+      "name": "firstName",
+      "type": "string",
+      "index": 0
+    },
+    {
+      "id": "7xzchNlfHKdXrLVa",
+      "name": "lastName",
+      "type": "string",
+      "index": 1
+    },
+    {
+      "id": "ZhY3cc4XHxYEFG3F",
+      "name": "status",
+      "type": "string",
+      "index": 2
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "createdAt": "2025-11-07T11:15:05.788Z",
+  "updatedAt": "2025-11-07T11:15:05.788Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "h7ZySD4t8Kgk01AA",
+  "name": "My workflow 411",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "ac969c22-0180-4925-b0f9-071e3fa6e1e7",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "9b610db5-89c7-45f1-8e0e-4f4e77886a36",
+      "name": "Webhook",
+      "webhookId": "ac969c22-0180-4925-b0f9-071e3fa6e1e7"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "4d490da9-1750-4c99-8509-a9ac35d79ace",
+  "owner": {
+    "type": "personal",
+    "projectId": "eyiGbKnK74bZh15P",
+    "projectName": "Kobi Dog <mrdosija@gmail.com>",
+    "personalEmail": "mrdosija@gmail.com"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

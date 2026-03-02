@@ -1,0 +1,57 @@
+{
+  "id": "niAjM5WC8b4m0Tr9",
+  "name": "sub-workflow 5",
+  "nodes": [
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "f5a98779-a99b-4d8c-a2dd-25d7975f03f8",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        208,
+        0
+      ],
+      "id": "a959a9d4-7644-4de4-bba3-33e4fa5aacc4",
+      "name": "Edit Fields"
+    }
+  ],
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "495b2646-fde3-4af9-8074-24adcd825375",
+  "owner": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "parentFolderId": "URTf19QZZEOD4avT",
+  "isArchived": false
+}

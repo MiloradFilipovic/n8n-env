@@ -1,0 +1,18 @@
+{
+  "tags": [
+    {
+      "id": "OujWxQ77SpUqhTIt",
+      "name": "mcp-test"
+    }
+  ],
+  "mappings": [
+    {
+      "workflowId": "kowzMNbmnD0IG8TV",
+      "tagId": "OujWxQ77SpUqhTIt"
+    },
+    {
+      "workflowId": "sUJpmuL598al1PT1",
+      "tagId": "OujWxQ77SpUqhTIt"
+    }
+  ]
+}

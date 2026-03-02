@@ -1,0 +1,94 @@
+{
+  "id": "HZYzzz5zCdkGkJLK",
+  "name": "Get candidates",
+  "nodes": [
+    {
+      "parameters": {
+        "respondWith": "allIncomingItems",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        272,
+        0
+      ],
+      "id": "b2d803ed-3dfb-4125-91b6-352be5d0fad2",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "path": "usersapi",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -144,
+        0
+      ],
+      "id": "d435c26c-46b7-43b8-b7ff-85e23de4166d",
+      "name": "Webhook",
+      "webhookId": "aeb2b618-48f7-426b-b520-b39da76963d6"
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "dataTableId": {
+          "__rl": true,
+          "value": "biE5qnFLDLWHaBjZ",
+          "mode": "list",
+          "cachedResultName": "Candidates",
+          "cachedResultUrl": "/projects/T9saDFOxSaQMzwBC/datatables/biE5qnFLDLWHaBjZ"
+        }
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1,
+      "position": [
+        64,
+        0
+      ],
+      "id": "a94e16fd-f356-4b6b-9b35-4daa7677e11f",
+      "name": "Get row(s)"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Get row(s)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s)": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": true
+  },
+  "triggerCount": 1,
+  "versionId": "7d45e16e-bf84-4848-8f4b-79c2cfcdb2e4",
+  "owner": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "PoINsNsTQR93sPYl",
+  "name": "Google Sheets Trigger account",
+  "type": "googleSheetsTriggerOAuth2Api",
+  "data": {
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "isGlobal": false
+}

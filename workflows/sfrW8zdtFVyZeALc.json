@@ -1,0 +1,221 @@
+{
+  "id": "sfrW8zdtFVyZeALc",
+  "name": "Credentials zoom test",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "898bea41-3a2c-4815-870e-8cb2691e72f2",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "resource": "base",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        496,
+        144
+      ],
+      "id": "499e4bbb-4c4a-4514-a9bd-0b5f17773fb2",
+      "name": "Get many bases",
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "97cA3BoaVxkXLgQ1",
+          "name": "Airtable Personal Access Token account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.ghost",
+      "typeVersion": 1,
+      "position": [
+        208,
+        192
+      ],
+      "id": "7922239f-f7b2-4cc6-b1e1-67df9c459ca1",
+      "name": "Get many posts",
+      "credentials": {
+        "ghostContentApi": {
+          "id": "OBbzC1kridUIUxtu",
+          "name": "Ghost Content account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "list"
+      },
+      "type": "n8n-nodes-base.ftp",
+      "typeVersion": 1,
+      "position": [
+        208,
+        432
+      ],
+      "id": "04f90473-53ca-4128-8446-b28b335433e5",
+      "name": "FTP",
+      "credentials": {
+        "ftp": {
+          "id": "jvUzuyADq15LBD2r",
+          "name": "FTP account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "filters": {}
+      },
+      "type": "n8n-nodes-base.storyblok",
+      "typeVersion": 1,
+      "position": [
+        384,
+        -32
+      ],
+      "id": "9dd4ef10-87ea-4513-b49e-f075699db088",
+      "name": "Get many stories",
+      "credentials": {
+        "storyblokContentApi": {
+          "id": "hRG9lRVSNLW8hIuC",
+          "name": "Storyblok Content account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.jira",
+      "typeVersion": 1,
+      "position": [
+        480,
+        416
+      ],
+      "id": "06ee8717-428a-4e7d-957e-032133612313",
+      "name": "Get an issue"
+    },
+    {
+      "parameters": {
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.mailjet",
+      "typeVersion": 1,
+      "position": [
+        704,
+        400
+      ],
+      "id": "9b9fb6c3-dced-4e71-955b-8b17801a75c5",
+      "name": "Send an email"
+    },
+    {
+      "parameters": {
+        "operation": "get"
+      },
+      "type": "n8n-nodes-base.reddit",
+      "typeVersion": 1,
+      "position": [
+        912,
+        400
+      ],
+      "id": "4dc09d5f-b69f-4640-97c2-f2db145174e9",
+      "name": "Get a post"
+    },
+    {
+      "parameters": {
+        "resume": "webhook",
+        "incomingAuthentication": "basicAuth",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        944,
+        48
+      ],
+      "id": "7a75759e-7e4d-474a-8c2a-a2f4b9e392d2",
+      "name": "Wait",
+      "webhookId": "7ac31f58-acf4-4aef-8b68-35c0ad078397"
+    },
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        16,
+        272
+      ],
+      "id": "a5c91ab0-cb5f-475a-b716-ea7a68af7d22",
+      "name": "When Executed by Another Workflow"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Get many bases",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Get many posts",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "FTP",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Get many stories",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send an email": {
+      "main": [
+        [
+          {
+            "node": "Get a post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "bf5c1c62-ae93-49dd-a2b3-57886163d8dd",
+  "owner": {
+    "type": "personal",
+    "projectId": "4KJl0T0erg4DwK70",
+    "projectName": "Milorad Filipovic <milorad.filipovic19@gmail.com>",
+    "personalEmail": "milorad.filipovic19@gmail.com"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "v4NFonF1g2mJbKC1",
+  "name": "Anthropic account",
+  "type": "anthropicApi",
+  "data": {
+    "apiKey": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "isGlobal": false
+}

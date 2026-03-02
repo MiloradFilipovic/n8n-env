@@ -1,0 +1,14 @@
+{
+  "id": "XLBQvqG6MGGt30Ux",
+  "name": "OpenAi account 2",
+  "type": "openAiApi",
+  "data": {
+    "apiKey": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "isGlobal": false
+}

@@ -1,0 +1,68 @@
+{
+  "folders": [
+    {
+      "id": "aHrlGrAT2CNG9Zfa",
+      "name": "a folder",
+      "parentFolderId": null,
+      "homeProjectId": "4KJl0T0erg4DwK70",
+      "createdAt": "2025-08-13T13:13:23.822Z",
+      "updatedAt": "2025-08-13T13:13:23.822Z"
+    },
+    {
+      "id": "URTf19QZZEOD4avT",
+      "name": "sub-workflows",
+      "parentFolderId": null,
+      "homeProjectId": "IAryqYpe37O6pK0M",
+      "createdAt": "2025-09-05T09:17:55.373Z",
+      "updatedAt": "2025-09-08T11:34:42.000Z"
+    },
+    {
+      "id": "Vcard52YKvkgt1qg",
+      "name": "A folder",
+      "parentFolderId": null,
+      "homeProjectId": "T9saDFOxSaQMzwBC",
+      "createdAt": "2025-09-23T08:09:10.053Z",
+      "updatedAt": "2025-09-23T08:09:10.053Z"
+    },
+    {
+      "id": "2qf9iizxtLyeqO4q",
+      "name": "Move A",
+      "parentFolderId": null,
+      "homeProjectId": "T9saDFOxSaQMzwBC",
+      "createdAt": "2025-09-30T08:39:27.069Z",
+      "updatedAt": "2025-09-30T08:49:50.000Z"
+    },
+    {
+      "id": "Z8cniAYlvwXp3WkV",
+      "name": "Move B",
+      "parentFolderId": "2qf9iizxtLyeqO4q",
+      "homeProjectId": "T9saDFOxSaQMzwBC",
+      "createdAt": "2025-09-30T08:39:32.080Z",
+      "updatedAt": "2025-09-30T08:54:57.000Z"
+    },
+    {
+      "id": "InNE32zCEaSOdZdx",
+      "name": "Tools",
+      "parentFolderId": "Vcard52YKvkgt1qg",
+      "homeProjectId": "T9saDFOxSaQMzwBC",
+      "createdAt": "2025-11-07T08:22:06.789Z",
+      "updatedAt": "2025-11-07T08:22:06.789Z"
+    },
+    {
+      "id": "0x6HnEduhTJAiIA6",
+      "name": "tests",
+      "parentFolderId": null,
+      "homeProjectId": "OZ9bidGYVFg6L5av",
+      "createdAt": "2025-11-28T15:03:45.351Z",
+      "updatedAt": "2025-11-28T15:03:45.351Z"
+    },
+    {
+      "id": "CrPzcrbm9PHLetqQ",
+      "name": "Tools folder with another name",
+      "parentFolderId": "InNE32zCEaSOdZdx",
+      "homeProjectId": "T9saDFOxSaQMzwBC",
+      "createdAt": "2025-12-10T11:07:44.601Z",
+      "updatedAt": "2025-12-10T11:07:44.601Z"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ZAFyPhnp7mX5V2Ta",
+  "name": "Empty",
+  "icon": {
+    "type": "icon",
+    "value": "tree-pine"
+  },
+  "description": "",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "ZAFyPhnp7mX5V2Ta",
+    "teamName": "Empty"
+  },
+  "variableStubs": []
+}

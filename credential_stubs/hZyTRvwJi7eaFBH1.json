@@ -1,0 +1,14 @@
+{
+  "id": "hZyTRvwJi7eaFBH1",
+  "name": "OpenAi account 3",
+  "type": "openAiApi",
+  "data": {
+    "apiKey": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "isGlobal": false
+}

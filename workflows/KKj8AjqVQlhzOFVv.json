@@ -1,0 +1,20 @@
+{
+  "id": "KKj8AjqVQlhzOFVv",
+  "name": "Memphis API",
+  "nodes": [],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "triggerCount": 0,
+  "versionId": "021174a1-f749-474d-9d92-97233e61ce7e",
+  "owner": {
+    "type": "team",
+    "teamId": "H9sQpQ26dxKawFYL",
+    "teamName": "Memphis Project"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

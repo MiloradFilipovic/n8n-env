@@ -1,0 +1,133 @@
+{
+  "id": "HzzgmPZb5wWHuuQT",
+  "name": "Pupil submissions",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Test form",
+        "formDescription": "Simple user survey",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "First Name",
+              "placeholder": "Your first name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Last Name",
+              "placeholder": "Your last name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "email",
+              "fieldType": "email",
+              "placeholder": "Your email",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        0,
+        0
+      ],
+      "id": "794e4cf3-c4f3-4845-8bed-de096fe51988",
+      "name": "On form submission",
+      "webhookId": "99449f04-7f2a-4977-a034-704f83566aa6"
+    },
+    {
+      "parameters": {
+        "dataTableId": {
+          "__rl": true,
+          "value": "biE5qnFLDLWHaBjZ",
+          "mode": "list",
+          "cachedResultName": "Candidates",
+          "cachedResultUrl": "/projects/T9saDFOxSaQMzwBC/datatables/biE5qnFLDLWHaBjZ"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "firstName": "={{ $json['First Name'] }}",
+            "lastName": "={{ $json['Last Name'] }}",
+            "email": "={{ $json.email }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "firstName",
+              "displayName": "firstName",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "lastName",
+              "displayName": "lastName",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "email",
+              "displayName": "email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "1031e034-5136-48ea-9b9e-da9765aa4552",
+      "name": "Insert row"
+    }
+  ],
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Insert row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false,
+    "description": "Call this workflow to submit user survey."
+  },
+  "triggerCount": 1,
+  "versionId": "3e080dbc-435b-464d-85b0-79450f0cd5df",
+  "owner": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

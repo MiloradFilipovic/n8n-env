@@ -1,0 +1,34 @@
+{
+  "id": "UMAk75LrblbvC0Nl",
+  "name": "Duplicate",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "83451442-5b37-4ac5-9f02-f582963601f2",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "8b68095e-b792-4ec1-9538-d401a72a2a4e",
+      "name": "Webhook",
+      "webhookId": "83451442-5b37-4ac5-9f02-f582963601f2"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 1,
+  "versionId": "bd40ac7d-e2b4-4a6a-adcc-8aa61a7358e6",
+  "owner": {
+    "type": "team",
+    "teamId": "OZ9bidGYVFg6L5av",
+    "teamName": "Publish tests"
+  },
+  "parentFolderId": null,
+  "isArchived": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": "E0I75QClFnUAu9la",
+  "name": "I have a very long name a very long name a very long name a very long name a very long name a very long name",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "69affd14-b4d1-4551-b31f-9231dde7fb0d",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "e1644546-5e38-48d4-ae97-ab97abb94f3f",
+      "name": "Webhook",
+      "webhookId": "69affd14-b4d1-4551-b31f-9231dde7fb0d"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "7f70e5a5-d9cb-4856-a56a-d8b17eab8ebd",
+  "owner": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "parentFolderId": "CrPzcrbm9PHLetqQ",
+  "isArchived": false
+}

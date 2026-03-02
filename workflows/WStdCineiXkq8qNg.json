@@ -1,0 +1,37 @@
+{
+  "id": "WStdCineiXkq8qNg",
+  "name": "Webhook 1",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "f8a2be5c-8d21-4f63-9559-1a79be18ff2f",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "b26f908b-6120-45ad-82a3-fd3c98806099",
+      "name": "Webhook",
+      "webhookId": "f8a2be5c-8d21-4f63-9559-1a79be18ff2f"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "f41faf8d-caeb-4624-9cb8-d0de29e0a5f1",
+  "owner": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "parentFolderId": "2qf9iizxtLyeqO4q",
+  "isArchived": false
+}

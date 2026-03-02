@@ -1,0 +1,37 @@
+{
+  "id": "A77GOcxag8dC94N3",
+  "name": "Ok, how about now?",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "558b1a0e-4a87-412c-98cd-5d180d6c292c",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "6ba739e8-e392-40c0-a65f-c6f43bdbbdcd",
+      "name": "Webhook",
+      "webhookId": "558b1a0e-4a87-412c-98cd-5d180d6c292c"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false,
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "triggerCount": 1,
+  "versionId": "77505417-a6dd-4b77-8aae-e63057f010b9",
+  "owner": {
+    "type": "team",
+    "teamId": "OZ9bidGYVFg6L5av",
+    "teamName": "Publish tests"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

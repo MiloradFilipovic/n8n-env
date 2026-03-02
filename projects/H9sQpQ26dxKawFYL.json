@@ -1,0 +1,16 @@
+{
+  "id": "H9sQpQ26dxKawFYL",
+  "name": "Memphis Project",
+  "icon": {
+    "type": "icon",
+    "value": "ban"
+  },
+  "description": "",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "H9sQpQ26dxKawFYL",
+    "teamName": "Memphis Project"
+  },
+  "variableStubs": []
+}

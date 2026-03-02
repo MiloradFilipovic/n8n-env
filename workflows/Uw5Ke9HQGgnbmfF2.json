@@ -1,0 +1,35 @@
+{
+  "id": "Uw5Ke9HQGgnbmfF2",
+  "name": "Sticky video test",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "@[youtube](ljkiIkt6lZ4)",
+        "height": 576,
+        "width": 800,
+        "color": 7
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -560,
+        -944
+      ],
+      "id": "af28d2e5-95ae-48e1-85a4-65fd00d4ff0c",
+      "name": "Sticky Note"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "70a6df76-4767-4339-96b8-e3963fd0d82f",
+  "owner": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

@@ -1,0 +1,89 @@
+{
+  "id": "AR5jUVfxpCLQhdF1",
+  "name": "Trigger me softly",
+  "nodes": [
+    {
+      "parameters": {
+        "category": "randomData"
+      },
+      "type": "n8n-nodes-base.debugHelper",
+      "typeVersion": 1,
+      "position": [
+        496,
+        -64
+      ],
+      "id": "56d42e5e-ee7d-4594-a894-9a97f6697ff8",
+      "name": "DebugHelper"
+    },
+    {
+      "parameters": {
+        "amount": 20
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "4ae7423b-a4b7-4b99-9781-6399864dc8d7",
+      "name": "Wait",
+      "webhookId": "edd0a2d6-d39e-4ff2-ae93-97e6b86ebea0",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "14837118-1d8b-4bfe-82d0-704bc9430722",
+      "name": "Schedule Trigger"
+    }
+  ],
+  "connections": {
+    "Wait": {
+      "main": [
+        [
+          {
+            "node": "DebugHelper",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "2cc36bb6-d895-4693-b5d6-3c5ca3e8c66c",
+  "owner": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

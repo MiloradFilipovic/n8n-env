@@ -1,0 +1,37 @@
+{
+  "id": "kL1LZB7PuROqmtNS",
+  "name": "Personal API",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "81f63521-11aa-4319-9868-2874b1eadde4",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -48,
+        0
+      ],
+      "id": "11300e0b-ec87-44ac-825e-cc9d1c675101",
+      "name": "Webhook",
+      "webhookId": "81f63521-11aa-4319-9868-2874b1eadde4"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "fa2cfab5-ae48-44ea-8b2e-0d2299042d25",
+  "owner": {
+    "type": "personal",
+    "projectId": "4KJl0T0erg4DwK70",
+    "projectName": "Milorad Filipovic <milorad.filipovic19@gmail.com>",
+    "personalEmail": "milorad.filipovic19@gmail.com"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

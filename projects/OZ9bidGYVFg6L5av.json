@@ -1,0 +1,16 @@
+{
+  "id": "OZ9bidGYVFg6L5av",
+  "name": "Publish tests",
+  "icon": {
+    "type": "icon",
+    "value": "status-completed"
+  },
+  "description": "",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "OZ9bidGYVFg6L5av",
+    "teamName": "Publish tests"
+  },
+  "variableStubs": []
+}

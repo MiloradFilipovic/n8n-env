@@ -1,0 +1,35 @@
+{
+  "id": "tVO02ajkaYh5ugN0",
+  "name": "What about me copy",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "dfd6844d-15de-41ee-975f-45ad6a3106c2",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "3c7e9b78-70d1-4bf3-aeda-906720303caf",
+      "name": "Webhook",
+      "webhookId": "dfd6844d-15de-41ee-975f-45ad6a3106c2"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "65c06858-b159-41dc-ad89-4a210dc83f8a",
+  "owner": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "parentFolderId": null,
+  "isArchived": true
+}

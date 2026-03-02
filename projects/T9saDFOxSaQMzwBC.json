@@ -1,0 +1,16 @@
+{
+  "id": "T9saDFOxSaQMzwBC",
+  "name": "MCP Test",
+  "icon": {
+    "type": "icon",
+    "value": "mcp"
+  },
+  "description": "",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "variableStubs": []
+}

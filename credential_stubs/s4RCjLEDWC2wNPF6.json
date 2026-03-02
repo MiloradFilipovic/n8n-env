@@ -1,0 +1,15 @@
+{
+  "id": "s4RCjLEDWC2wNPF6",
+  "name": "Unnamed credential",
+  "type": "httpBasicAuth",
+  "data": {
+    "user": "",
+    "password": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "isGlobal": false
+}

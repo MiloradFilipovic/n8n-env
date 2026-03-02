@@ -1,0 +1,15 @@
+{
+  "id": "LKNfY0OibEpGETh1",
+  "name": "Google Calendar account 2",
+  "type": "googleCalendarOAuth2Api",
+  "data": {
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "isGlobal": false
+}

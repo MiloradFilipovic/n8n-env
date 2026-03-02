@@ -1,0 +1,15 @@
+{
+  "id": "a3QnrYprcxKytCMf",
+  "name": "Google Sheets account",
+  "type": "googleSheetsOAuth2Api",
+  "data": {
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "isGlobal": false
+}

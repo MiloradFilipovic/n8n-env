@@ -1,0 +1,35 @@
+{
+  "id": "kOCD9VEW0Rzutp1k",
+  "name": "Original - Published copy 3",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "d4980f47-2011-42be-bcd0-97c541bf4831",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "4dd901fe-598a-4317-85f6-6fc787f31f4f",
+      "name": "Webhook",
+      "webhookId": "d4980f47-2011-42be-bcd0-97c541bf4831"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "f9b3e36e-da78-4e8f-87ec-754c7c3d6afd",
+  "owner": {
+    "type": "team",
+    "teamId": "OZ9bidGYVFg6L5av",
+    "teamName": "Publish tests"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "k8KEAN8ITgFOBx6o",
+  "name": "JWT Auth account",
+  "type": "jwtAuth",
+  "data": {
+    "keyType": "",
+    "privateKey": "",
+    "publicKey": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "isGlobal": false
+}

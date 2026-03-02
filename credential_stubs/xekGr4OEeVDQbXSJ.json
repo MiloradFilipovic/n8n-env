@@ -1,0 +1,15 @@
+{
+  "id": "xekGr4OEeVDQbXSJ",
+  "name": "Users API",
+  "type": "httpHeaderAuth",
+  "data": {
+    "name": "",
+    "value": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "isGlobal": false
+}

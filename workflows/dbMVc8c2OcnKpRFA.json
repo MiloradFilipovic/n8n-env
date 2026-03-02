@@ -1,0 +1,141 @@
+{
+  "id": "dbMVc8c2OcnKpRFA",
+  "name": "Trigger ESC test",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -64,
+        -96
+      ],
+      "id": "98df97f8-bd0f-4308-8b9f-a6e2fa33e5fa",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "path": "26655735-cd1e-461d-bbee-5423d321b7df",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -32,
+        -304
+      ],
+      "id": "3652e227-6868-42d1-91c1-e99155465d79",
+      "name": "Webhook",
+      "webhookId": "26655735-cd1e-461d-bbee-5423d321b7df",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "dda0ad34-3ef5-42d9-a202-d8ac6d4dbb2c",
+              "name": "=name {{ $now }}",
+              "value": "john",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        352,
+        -304
+      ],
+      "id": "3a53edab-90d0-4cea-951e-f3a478e5a27b",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.html",
+      "typeVersion": 1.2,
+      "position": [
+        560,
+        -304
+      ],
+      "id": "e6012545-ee2b-4723-a804-008c223f9a5b",
+      "name": "HTML"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -16,
+        -512
+      ],
+      "id": "e04aadfe-5103-4ea6-af3a-b69ac8c49dba",
+      "name": "When chat message received",
+      "webhookId": "4abab5a8-d8ce-4152-8e51-1e7d68857245",
+      "disabled": true
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "HTML",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "triggerCount": 0,
+  "versionId": "b4b940b6-aacb-43f7-960e-0772150cf4d5",
+  "owner": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

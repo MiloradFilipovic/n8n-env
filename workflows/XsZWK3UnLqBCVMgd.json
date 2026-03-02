@@ -1,0 +1,180 @@
+{
+  "id": "XsZWK3UnLqBCVMgd",
+  "name": "Get Users",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "users",
+        "authentication": "headerAuth",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -32,
+        -80
+      ],
+      "id": "72b4015b-6424-41a0-808b-37ec3a2afff1",
+      "name": "List Users",
+      "webhookId": "461d2d7c-2380-40ff-9ef9-c8e2dec65221",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "xekGr4OEeVDQbXSJ",
+          "name": "Users API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "category": "randomData"
+      },
+      "type": "n8n-nodes-base.debugHelper",
+      "typeVersion": 1,
+      "position": [
+        176,
+        -80
+      ],
+      "id": "cf5a3389-fdc0-4ad6-b6c4-13aba9abf47d",
+      "name": "DebugHelper"
+    },
+    {
+      "parameters": {
+        "respondWith": "allIncomingItems",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        384,
+        -80
+      ],
+      "id": "6bd613ce-f1e2-4f2e-8337-648112ed12e8",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "34cd0d94-8317-42f7-b776-61f25a105926",
+              "name": "status",
+              "value": "success",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        176,
+        128
+      ],
+      "id": "dbf26b1c-53c5-4fe8-a149-b13bcad971bd",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "httpMethod": "DELETE",
+        "path": "user",
+        "authentication": "jwtAuth",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -32,
+        128
+      ],
+      "id": "ad05f335-0cb3-4e09-9afb-eb7e5c491a17",
+      "name": "Delete user",
+      "webhookId": "aff2c3f1-89e5-4756-9aaf-a9cbc38dfd08",
+      "credentials": {
+        "jwtAuth": {
+          "id": "k8KEAN8ITgFOBx6o",
+          "name": "JWT Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "allIncomingItems",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        384,
+        128
+      ],
+      "id": "bf7a4ccf-d79b-48d5-845d-669d4b54b09b",
+      "name": "Respond to Webhook1"
+    }
+  ],
+  "connections": {
+    "List Users": {
+      "main": [
+        [
+          {
+            "node": "DebugHelper",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DebugHelper": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Delete user": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": true,
+    "timezone": "Europe/Berlin",
+    "executionTimeout": 3600,
+    "timeSavedPerExecution": 23
+  },
+  "triggerCount": 2,
+  "versionId": "ca6ca2c0-34dd-45b9-adb6-71258cd08814",
+  "owner": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

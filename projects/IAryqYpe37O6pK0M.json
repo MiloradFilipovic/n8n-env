@@ -1,0 +1,16 @@
+{
+  "id": "IAryqYpe37O6pK0M",
+  "name": "Bag bash",
+  "icon": {
+    "type": "icon",
+    "value": "bug"
+  },
+  "description": "Cross team bug bash and other bug bashes",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "variableStubs": []
+}

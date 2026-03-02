@@ -1,0 +1,25 @@
+{
+  "id": "ALTTz2IQiKqpaljW",
+  "name": "Leads - NEW",
+  "columns": [
+    {
+      "id": "SRgzgM9yirElaRYF",
+      "name": "middle_name",
+      "type": "string",
+      "index": 1
+    },
+    {
+      "id": "IsV6Kg4G2ZHz689n",
+      "name": "added_this",
+      "type": "boolean",
+      "index": 2
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "NWBl77TREaNzOhJ2",
+    "teamName": "Data Tables"
+  },
+  "createdAt": "2025-11-07T11:15:05.788Z",
+  "updatedAt": "2025-11-07T11:15:05.788Z"
+}

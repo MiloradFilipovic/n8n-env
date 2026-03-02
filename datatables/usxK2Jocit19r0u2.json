@@ -1,0 +1,20 @@
+{
+  "id": "usxK2Jocit19r0u2",
+  "name": "Test",
+  "columns": [
+    {
+      "id": "BbSgywN8mqjJjZa2",
+      "name": "name",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "4KJl0T0erg4DwK70",
+    "projectName": "Milorad Filipovic <milorad.filipovic19@gmail.com>",
+    "personalEmail": "milorad.filipovic19@gmail.com"
+  },
+  "createdAt": "2026-01-23T20:19:03.300Z",
+  "updatedAt": "2026-01-23T20:24:38.506Z"
+}

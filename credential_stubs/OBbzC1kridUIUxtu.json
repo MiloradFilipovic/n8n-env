@@ -1,0 +1,16 @@
+{
+  "id": "OBbzC1kridUIUxtu",
+  "name": "Ghost Content account",
+  "type": "ghostContentApi",
+  "data": {
+    "url": "",
+    "apiKey": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "4KJl0T0erg4DwK70",
+    "projectName": "Milorad Filipovic <milorad.filipovic19@gmail.com>",
+    "personalEmail": "milorad.filipovic19@gmail.com"
+  },
+  "isGlobal": false
+}

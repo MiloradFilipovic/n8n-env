@@ -1,0 +1,19 @@
+{
+  "id": "MtA2Ci382YOYOdnz",
+  "name": "My workflow 3",
+  "nodes": [],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "272e15a6-b1b6-49a6-8b95-12aa3c4221d4",
+  "owner": {
+    "type": "personal",
+    "projectId": "4KJl0T0erg4DwK70",
+    "projectName": "Milorad Filipovic <milorad.filipovic19@gmail.com>",
+    "personalEmail": "milorad.filipovic19@gmail.com"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

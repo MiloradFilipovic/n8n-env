@@ -1,0 +1,18 @@
+{
+  "id": "uV0X10QXBUJe4QoW",
+  "name": "parent-obj",
+  "nodes": [],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "dd994afb-cea4-4727-8f86-90ef8a8f2b68",
+  "owner": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

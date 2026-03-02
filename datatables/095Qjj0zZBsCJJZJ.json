@@ -1,0 +1,37 @@
+{
+  "id": "095Qjj0zZBsCJJZJ",
+  "name": "Assistant evaluation",
+  "columns": [
+    {
+      "id": "kmAsPIMZ0MisTWEz",
+      "name": "score",
+      "type": "number",
+      "index": 0
+    },
+    {
+      "id": "OAxFOcI4bDZb2vBV",
+      "name": "user_input",
+      "type": "string",
+      "index": 1
+    },
+    {
+      "id": "hGp6DSxCltMtpNjI",
+      "name": "is_in_langchain",
+      "type": "boolean",
+      "index": 2
+    },
+    {
+      "id": "TtT07bqhK3qhU3Rq",
+      "name": "lc_updated_at",
+      "type": "date",
+      "index": 3
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "NWBl77TREaNzOhJ2",
+    "teamName": "Data Tables"
+  },
+  "createdAt": "2025-09-05T07:00:59.898Z",
+  "updatedAt": "2025-09-05T07:00:59.898Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "NWBl77TREaNzOhJ2",
+  "name": "Data Tables",
+  "icon": {
+    "type": "icon",
+    "value": "database"
+  },
+  "description": "",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "NWBl77TREaNzOhJ2",
+    "teamName": "Data Tables"
+  },
+  "variableStubs": []
+}

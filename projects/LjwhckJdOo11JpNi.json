@@ -1,0 +1,16 @@
+{
+  "id": "LjwhckJdOo11JpNi",
+  "name": "Assistant tests",
+  "icon": {
+    "type": "icon",
+    "value": "bot"
+  },
+  "description": "",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "LjwhckJdOo11JpNi",
+    "teamName": "Assistant tests"
+  },
+  "variableStubs": []
+}

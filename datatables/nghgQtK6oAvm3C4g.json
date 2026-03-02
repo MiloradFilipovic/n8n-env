@@ -1,0 +1,43 @@
+{
+  "id": "nghgQtK6oAvm3C4g",
+  "name": "Users",
+  "columns": [
+    {
+      "id": "ENoNTMMojspHrxqT",
+      "name": "firstName",
+      "type": "string",
+      "index": 0
+    },
+    {
+      "id": "Cpz3J4wqvQhK6ldj",
+      "name": "lastName",
+      "type": "string",
+      "index": 1
+    },
+    {
+      "id": "B7Y4q96rrtN5zaes",
+      "name": "age",
+      "type": "number",
+      "index": 2
+    },
+    {
+      "id": "7DjM0mTea3pTdyqC",
+      "name": "birthDate",
+      "type": "date",
+      "index": 3
+    },
+    {
+      "id": "qjJzlivrBtBsU9cj",
+      "name": "active",
+      "type": "boolean",
+      "index": 4
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "NWBl77TREaNzOhJ2",
+    "teamName": "Data Tables"
+  },
+  "createdAt": "2025-09-01T08:21:53.491Z",
+  "updatedAt": "2025-09-01T08:21:53.491Z"
+}

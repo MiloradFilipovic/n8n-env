@@ -1,0 +1,34 @@
+{
+  "id": "serwPcWUkq66T40X",
+  "name": "Me me!",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "09cffb9a-8e63-45d4-92d9-36604d578173",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "35c90439-fc8b-47a0-a808-ee4c5685296d",
+      "name": "Webhook",
+      "webhookId": "09cffb9a-8e63-45d4-92d9-36604d578173"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 1,
+  "versionId": "008206ac-fa95-4289-b5c1-5ecb7f4e50db",
+  "owner": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

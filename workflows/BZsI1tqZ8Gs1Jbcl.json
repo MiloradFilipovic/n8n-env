@@ -1,0 +1,37 @@
+{
+  "id": "BZsI1tqZ8Gs1Jbcl",
+  "name": "Memphis personal",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "7fa1baf8-36f1-479b-be85-c1597cf25e55",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "510b7fd1-2831-4329-a811-dc1e2aee4c3a",
+      "name": "Webhook",
+      "webhookId": "7fa1baf8-36f1-479b-be85-c1597cf25e55"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "4c8a5b05-9acc-4f22-8e4d-7710c0a382fd",
+  "owner": {
+    "type": "personal",
+    "projectId": "rDAw0TpAoEjB7YuS",
+    "projectName": "Memphis Raines <milorad@n8n.io>",
+    "personalEmail": "milorad@n8n.io"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

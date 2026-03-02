@@ -1,0 +1,18 @@
+{
+  "id": "c4rTDPt8m5QpYgSL",
+  "name": "My workflow 8",
+  "nodes": [],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "ff921c48-ce93-4016-bc8a-3913c78f7fc7",
+  "owner": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

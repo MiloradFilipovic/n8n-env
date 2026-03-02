@@ -1,0 +1,16 @@
+{
+  "id": "e71zldqTHabI3yUa",
+  "name": "Google Calendar account",
+  "type": "googleCalendarOAuth2Api",
+  "data": {
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "4KJl0T0erg4DwK70",
+    "projectName": "Milorad Filipovic <milorad.filipovic19@gmail.com>",
+    "personalEmail": "milorad.filipovic19@gmail.com"
+  },
+  "isGlobal": false
+}

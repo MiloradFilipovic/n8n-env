@@ -1,0 +1,19 @@
+{
+  "id": "3tys2i7Nxdfia5Xy",
+  "name": "Empty 😢",
+  "columns": [
+    {
+      "id": "jFRZlJcsO2sf3KIG",
+      "name": "adas",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "NWBl77TREaNzOhJ2",
+    "teamName": "Data Tables"
+  },
+  "createdAt": "2025-09-08T12:32:01.903Z",
+  "updatedAt": "2025-09-09T07:43:00.000Z"
+}

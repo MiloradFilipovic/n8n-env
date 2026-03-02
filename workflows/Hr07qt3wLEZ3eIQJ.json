@@ -1,0 +1,115 @@
+{
+  "id": "Hr07qt3wLEZ3eIQJ",
+  "name": "Disabled WH",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "usersss",
+        "authentication": "headerAuth",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        -64
+      ],
+      "id": "93e7184a-617e-43e3-a9bb-3a696bbab9cf",
+      "name": "List Users",
+      "webhookId": "461d2d7c-2380-40ff-9ef9-c8e2dec65221",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "xekGr4OEeVDQbXSJ",
+          "name": "Users API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "category": "randomData"
+      },
+      "type": "n8n-nodes-base.debugHelper",
+      "typeVersion": 1,
+      "position": [
+        208,
+        -64
+      ],
+      "id": "bcec30a0-cbc9-4e34-b9bb-36edd54c06cd",
+      "name": "DebugHelper"
+    },
+    {
+      "parameters": {
+        "respondWith": "allIncomingItems",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        416,
+        -64
+      ],
+      "id": "fb1653ed-35c1-4cac-8d37-9e940f3e4b8a",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -16,
+        -336
+      ],
+      "id": "17425537-99a1-4395-89ea-e81ea0a36054",
+      "name": "When clicking ‘Execute workflow’"
+    }
+  ],
+  "connections": {
+    "List Users": {
+      "main": [
+        [
+          {
+            "node": "DebugHelper",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DebugHelper": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "DebugHelper",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "5310a6e0-0851-410f-9e41-c4dd82e90acb",
+  "owner": {
+    "type": "team",
+    "teamId": "T9saDFOxSaQMzwBC",
+    "teamName": "MCP Test"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

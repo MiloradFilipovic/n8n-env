@@ -1,0 +1,74 @@
+{
+  "id": "d2pf6sTcKrtZZVXJ",
+  "name": "CAT-1253",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        208,
+        0
+      ],
+      "id": "d92f95db-72c4-4858-8fcf-fbcc9bd2ec2e",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "resource": "base",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        128,
+        432
+      ],
+      "id": "19828f95-4f82-4f41-9d33-1700d108ea79",
+      "name": "Get many bases"
+    },
+    {
+      "parameters": {
+        "path": "a929f019-9652-400b-9a4e-e06d34bae2b1",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -80,
+        0
+      ],
+      "id": "bc5599b0-52f6-4317-bc75-70580a339624",
+      "name": "Webhook",
+      "webhookId": "a929f019-9652-400b-9a4e-e06d34bae2b1"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "ac832b8e-afc1-49b2-aab9-f04616e395ee",
+  "owner": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

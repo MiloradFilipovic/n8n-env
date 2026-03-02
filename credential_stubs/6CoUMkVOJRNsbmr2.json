@@ -1,0 +1,15 @@
+{
+  "id": "6CoUMkVOJRNsbmr2",
+  "name": "GitHub account",
+  "type": "githubApi",
+  "data": {
+    "user": "",
+    "accessToken": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "IAryqYpe37O6pK0M",
+    "teamName": "Bag bash"
+  },
+  "isGlobal": false
+}
