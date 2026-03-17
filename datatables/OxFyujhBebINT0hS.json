@@ -1,0 +1,19 @@
+{
+  "id": "OxFyujhBebINT0hS",
+  "name": "Table1",
+  "columns": [
+    {
+      "id": "It24bc7Y63qKcep7",
+      "name": "name",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "OZ9bidGYVFg6L5av",
+    "teamName": "Publish tests"
+  },
+  "createdAt": "2026-03-17T09:52:26.912Z",
+  "updatedAt": "2026-03-17T09:52:33.703Z"
+}
