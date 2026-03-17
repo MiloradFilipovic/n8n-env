@@ -1,0 +1,12 @@
+{
+  "id": "R6hCmybQ7vqXbDr4",
+  "name": "Table3",
+  "columns": [],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "OZ9bidGYVFg6L5av",
+    "teamName": "Publish tests"
+  },
+  "createdAt": "2026-03-17T09:57:50.168Z",
+  "updatedAt": "2026-03-17T09:57:50.168Z"
+}
