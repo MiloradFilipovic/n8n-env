@@ -1,0 +1,20 @@
+{
+  "id": "35YAFfdaIslVwWh2",
+  "name": "Foo",
+  "columns": [
+    {
+      "id": "hd4W5mQn2snHBFXZ",
+      "name": "local",
+      "type": "number",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "4KJl0T0erg4DwK70",
+    "projectName": "Milorad Filipovic <milorad.filipovic19@gmail.com>",
+    "personalEmail": "milorad.filipovic19@gmail.com"
+  },
+  "createdAt": "2026-03-02T12:09:58.182Z",
+  "updatedAt": "2026-03-02T12:10:04.580Z"
+}
