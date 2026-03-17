@@ -1,0 +1,19 @@
+{
+  "id": "mPXyEceScrqu2tXg",
+  "name": "Table6",
+  "columns": [
+    {
+      "id": "RHkodEFPWOAFANrU",
+      "name": "name",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "NWBl77TREaNzOhJ2",
+    "teamName": "Data Tables"
+  },
+  "createdAt": "2026-03-17T10:34:10.134Z",
+  "updatedAt": "2026-03-17T10:34:13.731Z"
+}
